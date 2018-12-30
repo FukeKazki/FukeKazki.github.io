@@ -61,7 +61,7 @@ imgd{
 caption{ font-size:85%;}
 strong{ font-weight:600;}
 em{ font-weight:600; font-size:129%; font-style:normal;}
-a{ color:#00A0E9; } /*text-decoration:none; color:#202020;*/
+a{ color:#00A0E9; text-decoration: none;} /* color:#202020;*/
 
 *{ 
   -webkit-box-sizing: border-box;

@@ -1,2 +1,3 @@
 /* CSS Document */
-
+.pc-only{display: none !important;}
+.sm-only{}
