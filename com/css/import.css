@@ -1,0 +1,7 @@
+/* CSS Document */
+/*font*/
+
+/*css*/
+@import url("reset.css");
+@import url("pc.css")	(min-width: 481px);
+@import url("smart.css")	(max-width: 480px);
