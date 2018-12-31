@@ -4,14 +4,26 @@
 	width: 1200px;
 	margin: 0 auto;
 }
-
+header,nav,.nc,.nc ul{
+	background: rgba(179,114,238);
+}
+.fc{
+	background: #ccc;
+}
+.fc01{
+	padding: 1em 0;
+}
+.fc02{
+	padding: 1em 0;
+}
 /*TEXT*/
 .title{
 	margin: 0;
 	padding: 10px;
 	font-size: 136%;
+	color: #fff;
 }
-.title a{color: #000;}
+.title a{color: #fff;}
 .page-title{
 	margin-top: 30px; 
 	padding: 0; 
@@ -30,7 +42,7 @@
 	letter-spacing: 0.2em;
 }
 .article-title{
-	margin-top: 30px;
+	margin-top: 2em;
 	padding: 0;
 	text-align: center;
 	font-size: 180%;
@@ -61,14 +73,37 @@
 	font-size: 83%;
 	font-weight: bold;
 }
-
+/*デコレーション*/
+.article-title{
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	background: linear-gradient(transparent 95%, #ff6f61 95%);
+}
 /*その他共通設定*/
 .gnav a{
-	color: #000;
+	color: #fff;
 }
 .life p{
 	text-align: center;
 }
 .life .section-title-sub{
 	margin: 1em 0;
+}
+/*ボタン*/
+.button{
+	border: 1px solid #ccc;
+	margin-bottom: 1em;
+	transition: all 0.5s;
+}
+.button:hover{
+	transform: scale(1.05);
+}
+.button a{
+	display: block;
+	padding: 0.5em;
+}
+.button p{
+	text-align: center;
+	color: #fff;
 }

@@ -17,33 +17,33 @@
 		<div class="nc">
 			<ul class="clearfix">
 				<li>
-					<a href="">
+					<a href="#profile">
 						<p class="section-title">Profile</p><p class="section-title-sub">プロフィール</p>
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="#language">
 						<p class="section-title">Language</p><p class="section-title-sub">言語</p>
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="#development">
 						<p class="section-title">Development</p><p class="section-title-sub">開発</p>
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="#life">
 						<p class="section-title">Life</p><p class="section-title-sub">生活</p>
 					</a>
 				</li>
 				<li>
-					<a href="">
-						<p class="section-title">Gallery</p><p class="section-title-sub">画像集</p>
+					<a href="#link">
+						<p class="section-title">Link</p><p class="section-title-sub">リンク</p>
 					</a>
 				</li>
 				<li>
-					<a href="">
-						<p class="section-title">Link</p><p class="section-title-sub">リンク</p>
+					<a href="#gallery">
+						<p class="section-title">Gallery</p><p class="section-title-sub">画像集</p>
 					</a>
 				</li>
 			</ul>
@@ -51,7 +51,7 @@
 	</nav>
 	<main>
 		<div class="mc">
-			<p class="article-title">Profile</p>
+			<p class="article-title" id="profile">Profile</p>
 			<h2 class="article-title-sub">プロフィール</h2>
 			<div class="profile">
 				<p class="section-title">Fuke Kazuki (フケ カズキ)</p>
@@ -60,7 +60,7 @@
 				<p class="section-title">コンピュータ研究部所属</p>
 			</div>
 			
-			<p class="article-title">Language</p>
+			<p class="article-title" id="language">Language</p>
 			<h2 class="article-title-sub">言語</h2>
 			<div class="language">
 				<p class="section-title">html/css</p>
@@ -69,24 +69,29 @@
 				<p class="section-title">C</p>
 			</div>
 			
-			<p class="article-title">Development</p>
+			<p class="article-title" id="development">Development</p>
 			<h2 class="article-title-sub">開発</h2>
 			<div class="development">
 				<div class="card">
-					<p class="image"><img src="" alt=""></p>
-					<p class="text">マテリアルデザインのフレームワークを使ったサイトを作成しました。</p>
+					<a href="https://fukekazki.github.io/con-material/" target="_blank">
+						<p class="image"><img src="com/img/コン研マテリアルデザイン.png" alt="コン研マテリアルデザイン"></p>
+						<p class="text">マテリアルデザインのフレームワークを使ったサイトを作成しました。</p>
+					</a>
 				</div>
 				<div class="card">
-					<p class="image"><img src="" alt=""></p>
-					<p class="text">コンピュータ研究部のブログサイトをWordpressで作成しました。</p>
+					<a href="http://comken.fromone.me/" target="_blank">
+						<p class="image"><img src="com/img/コン研wordpress.png" alt="コン研wordpress"></p>
+						<p class="text">コンピュータ研究部のブログサイトをWordpressで作成しました。</p>
+					</a>
 				</div>
 				<div class="card">
-					<p class="image"><img src="" alt=""></p>
+					<p class="section-title">その他</p>
 					<p class="text">画像とテキストの投稿サイトをphpとmysqlで作成しました。</p>
+					<p class="text">案件でレスポンシブサイトを1つ作成しました。</p>
 				</div>
 			</div>
 			
-			<p class="article-title">Life</p>
+			<p class="article-title" id="life">Life</p>
 			<h2 class="article-title-sub">生活</h2>
 			<div class="life">
 				<p class="section-title-sub">History</p>
@@ -101,7 +106,7 @@
 				
 			</div>
 			
-			<p class="article-title">Link</p>
+			<p class="article-title" id="link">Link</p>
 			<h2 class="article-title-sub">リンク</h2>
 			<div class="link">
 				<div class="card">
@@ -109,15 +114,15 @@
 				</div>
 				<div class="card">
 					<div class="button">
-						<a href="https://kazkifukke.hatenablog.com/"><p>Blog</p></a>
+						<a href="https://kazkifukke.hatenablog.com/" target="_blank"><p>Blog</p></a>
 					</div>
 					<div class="button">
-						<a href="https://github.com/FukeKazki"><p>Github</p></a>
+						<a href="https://github.com/FukeKazki" target="_blank"><p>Github</p></a>
 					</div>
 				</div>
 			</div>
 			
-			<p class="article-title">Gallery</p>
+			<p class="article-title" id="gallery">Gallery</p>
 			<h2 class="article-title-sub">画像集</h2>
 			<div class="gallery">
 				<ul>
@@ -137,7 +142,10 @@
 			</div>
 		</div>
 	</footer>
-	
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
 	<script src="index.js"></script>
 </body>
 </html>
