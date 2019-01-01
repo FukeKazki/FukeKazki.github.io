@@ -1,11 +1,15 @@
 /* CSS Document */
 /*LAYOUT*/
-.hc,.nc,.mc,.fc01,.fc02{
-	width: 1200px;
-	margin: 0 auto;
-}
 header,nav,.nc,.nc ul{
 	background: rgba(179,114,238);
+}
+
+.mc01{
+	padding: 2em 0;
+	background: #f2f2f2;
+}
+.mc02{
+	padding: 2em 0;
 }
 .fc{
 	background: #ccc;
@@ -15,6 +19,8 @@ header,nav,.nc,.nc ul{
 }
 .fc02{
 	padding: 1em 0;
+	color: #fff;
+	background: #000;
 }
 /*TEXT*/
 .title{

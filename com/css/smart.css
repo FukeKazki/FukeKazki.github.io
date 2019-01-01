@@ -1,7 +1,11 @@
 /* CSS Document */
 .pc-only{display: none !important;}
 .sm-only{}
-.hc,.mc,.fc01,.fc02{
+.hc,.fc01{
+	width: 90%;
+	margin: 0 auto;
+}
+.auto{
 	width: 90%;
 	margin: 0 auto;
 }
