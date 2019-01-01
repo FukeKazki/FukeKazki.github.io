@@ -18,4 +18,9 @@ $('a[href^="#"]').click(function() {
   	return false;
 });
 
+	$('#nav_toggle').click(function(){
+		$("header").toggleClass('open');
+		$('nav').slideToggle(500);
+	});
+	
 });
