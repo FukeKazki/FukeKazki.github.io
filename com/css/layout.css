@@ -1,12 +1,22 @@
 /* CSS Document */
+/*
+BaseColor: rgb(204, 184, 202)
+MainColor: rgb(244, 180, 208)
+AccentColor: rgb(181, 245, 217)
+*/
+/*FONT*/
+body {
+	font-family: 'Noto Serif JP', serif;
+	font-family: 'Playfair Display', serif;
+}
 /*LAYOUT*/
 header,nav,.nc,.nc ul{
-	background: rgba(179,114,238);
+	background: rgba(244, 184, 202);
 }
 
 .mc01{
 	padding: 2em 0;
-	background: #f2f2f2;
+/*	background: #f2f2f2;*/
 }
 .mc02{
 	padding: 2em 0;
@@ -25,11 +35,10 @@ header,nav,.nc,.nc ul{
 /*TEXT*/
 .title{
 	margin: 0;
-	padding: 10px;
-	font-size: 136%;
+	padding: 1em;
+	font-size: 1.5em;
 	color: #fff;
 }
-.title a{color: #fff;}
 .page-title{
 	margin-top: 30px; 
 	padding: 0; 
@@ -67,16 +76,17 @@ header,nav,.nc,.nc ul{
 }
 .section-title{
 	margin: 0;
-	padding: 0.5em;
+	padding: 0;
 	text-align: center;
-	font-size: 120%;
+	font-size: 1.5em;
 	font-weight: 200;
 }
 .section-title-sub{
 	margin: 0;
 	padding: 0;
+	padding-bottom: 5px;
 	text-align: center;
-	font-size: 83%;
+	font-size: 1em;
 	font-weight: bold;
 }
 /*デコレーション*/
@@ -84,7 +94,7 @@ header,nav,.nc,.nc ul{
 	width: 300px;
 	margin-right: auto;
 	margin-left: auto;
-	background: linear-gradient(transparent 95%, #ff6f61 95%);
+	background: linear-gradient(transparent 95%, rgb(181, 245, 217) 95%);
 }
 /*その他共通設定*/
 .gnav a{

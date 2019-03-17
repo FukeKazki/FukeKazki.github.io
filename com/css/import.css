@@ -1,6 +1,6 @@
 /* CSS Document */
 /*font*/
-
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP|Playfair+Display');
 /*css*/
 @import url("reset.css");
 @import url("layout.css");

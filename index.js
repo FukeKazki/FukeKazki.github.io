@@ -26,14 +26,12 @@ $('a[href^="#"]').click(function() {
 	});
 	
 	//桜が降る
-	$(document).snowfall({
-		maxSize: 100,
-		maxSpeed: 5,
-		round: true,
-		//shadow: true,
-		flakeColor: "pink",
-		//collection: 'div',
-		image: 'com/img/sakura.png',
-	});
+//	$(document).snowfall({
+//		maxSize: 100,
+//		maxSpeed: 5,
+//		round: true,
+//		flakeColor: "pink",
+//		image: 'com/img/sakura.png',
+//	});
 	
 });
