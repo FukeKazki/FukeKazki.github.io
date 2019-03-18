@@ -27,12 +27,14 @@ $(function(){
 				$("header").toggleClass('open');
 				$('nav').slideToggle(500);
 			});
-	});
-	
-	{
+		
+		{
 		let url = window.location;
 		$('.gnav a[href="'+url+'"]').addClass('active');
-	}
+		}
+		
+	});
+	
 	
 	//桜が降る
 //	$(document).snowfall({
