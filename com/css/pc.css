@@ -34,7 +34,7 @@
 }
 .card{
 	width: 300px;
-	background: rgba(204, 184, 202);
+	background: rgb(204, 184, 202);
 	transition: all 0.5s;
 	padding: 1.5em;
 }
