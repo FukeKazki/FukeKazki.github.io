@@ -12,16 +12,6 @@ $(function(){
 			if($(window).scrollTop() > gm_offset.top) { gm_nav.addClass('fixed'); } else { gm_nav.removeClass('fixed'); }
 			});
 		}
-		
-		$('a[href^="#"]').click(function() {
-			const headerHight = 100;
-			const speed = 400;
-			const href= $(this).attr("href");
-			const target = $(href == "#" || href == "" ? 'html' : href);
-			const position = target.offset().top-headerHight;
-			$('body,html').animate({scrollTop:position}, speed, 'swing');
-			return false;
-		});
 
 			$('#nav_toggle').click(function(){
 				$("header").toggleClass('open');
