@@ -50,7 +50,10 @@
 	color: #fff;
 }
 /*リンク*/
-.link{
+.link, .life{
 	display: flex;
 	justify-content: space-around;
+}
+.card p {
+	color: #fff;
 }

@@ -26,6 +26,9 @@
 	padding: 1em;
 	color: #fff;
 }
+.card p {
+	color: #fff;
+}
 .link .card{
 	padding: 1em;
 }
