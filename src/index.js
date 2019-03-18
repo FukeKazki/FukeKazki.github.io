@@ -29,6 +29,11 @@ $(function(){
 			});
 	});
 	
+	{
+		let url = window.location;
+		$('.gnav a[href="'+url+'"]').addClass('active');
+	}
+	
 	//桜が降る
 //	$(document).snowfall({
 //		maxSize: 100,

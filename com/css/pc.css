@@ -31,7 +31,7 @@
 .gnav li:hover{
 	transform: scale(1.1);
 }
-.gnav li a:active {
+.active {
 	color: rgb(181, 245, 217);
 }
 .gnav .section-title{margin: 0;}
