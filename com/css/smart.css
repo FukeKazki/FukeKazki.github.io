@@ -13,19 +13,8 @@
 	margin-bottom: 1em;
 	background: rgba(204, 184, 202);
 	padding: 1.5em;
-	transition: all 0.5s;
-}
-.development .card:hover{
-	transform: scale(1.05);
 }
 
-.card .section-title{
-	color: #fff;
-}
-.card .text{
-	padding: 1em;
-	color: #fff;
-}
 .card p {
 	color: #fff;
 }
