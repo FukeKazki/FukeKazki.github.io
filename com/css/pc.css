@@ -20,7 +20,7 @@
 	z-index: 2;
 }
 .gnav li{
-	width: 16.6666%;
+	width: 20%;
 	float: left;
 /*	border-left: 1px solid #000;*/
 	transition: all 0.5s;
@@ -29,7 +29,10 @@
 /*	border-right: 1px solid #000;*/
 }
 .gnav li:hover{
-	transform: scale(1.03);
+	transform: scale(1.1);
+}
+.gnav li a:active {
+	color: rgb(181, 245, 217);
 }
 .gnav .section-title{margin: 0;}
 

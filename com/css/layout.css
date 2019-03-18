@@ -22,7 +22,8 @@ header,nav,.nc,.nc ul{
 	padding: 2em 0;
 }
 .fc{
-	background: #ccc;
+	color: #fff;
+	background: rgba(204, 184, 202, 0.5);
 }
 .fc01{
 	padding: 1em 0;
@@ -30,7 +31,7 @@ header,nav,.nc,.nc ul{
 .fc02{
 	padding: 1em 0;
 	color: #fff;
-	background: #000;
+	background: rgb(179, 161, 177);
 }
 /*TEXT*/
 .title{
