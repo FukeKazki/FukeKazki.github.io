@@ -59,6 +59,7 @@ header,nav,.nc,.nc ul{
 	text-align: center;
 	font-size: 180%;
 	font-weight: bold;
+	letter-spacing: .1em;
 }
 .article-title-sub{
 	margin: 0;
@@ -77,6 +78,7 @@ header,nav,.nc,.nc ul{
 	text-align: center;
 	font-size: 1.5em;
 	font-weight: 200;
+	letter-spacing: .1em;
 }
 .section-title-sub{
 	margin: 0;

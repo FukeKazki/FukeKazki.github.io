@@ -30,13 +30,13 @@
 /*開発*/
 .development{
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 }
 .card{
 	width: 300px;
 	background: rgba(204, 184, 202);
-	margin-right: 1em;
 	transition: all 0.5s;
+	padding: 1.5em;
 }
 .development .card:hover{
 	transform: scale(1.05);
@@ -52,12 +52,5 @@
 /*リンク*/
 .link{
 	display: flex;
-	justify-content: center;
-}
-.link .card{
-	padding: 1em;
-}
-/*画像集*/
-.gallery ul li{
-	display: inline-block;
+	justify-content: space-around;
 }
