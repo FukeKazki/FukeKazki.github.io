@@ -1,17 +1,15 @@
-/* CSS Document */
-/*
-BaseColor: rgb(204, 184, 202)
-MainColor: rgb(244, 180, 208)
-AccentColor: rgb(181, 245, 217)
-*/
-/*FONT*/
+$base-color: rgba(204, 184, 202, 0.5);
+$main-color: rgb(244, 180, 208);
+$accent-color: rgb(181, 245, 217);
+$footer-color: rgb(179, 161, 177);
+//FONT
 body {
 	font-family: 'Noto Serif JP', serif;
 	font-family: 'Playfair Display', serif;
 }
-/*LAYOUT*/
+//LAYOUT
 header,nav,.nc,.nc ul{
-	background: rgb(244, 184, 202);
+	background: $main-color;
 }
 
 .mc {
@@ -19,7 +17,7 @@ header,nav,.nc,.nc ul{
 }
 .fc{
 	color: #fff;
-	background: rgba(204, 184, 202, 0.5);
+	background: $base-color;
 }
 .fc01{
 	padding: 1em 0;
@@ -27,7 +25,7 @@ header,nav,.nc,.nc ul{
 .fc02{
 	padding: 1em 0;
 	color: #fff;
-	background: rgb(179, 161, 177);
+	background: $footer-color;
 }
 /*TEXT*/
 .title{
