@@ -1,0 +1,37 @@
+//FONT
+body {
+	font-family: 'Noto Serif JP', serif;
+	font-family: 'Playfair Display', serif;
+}
+
+header, nav, .nc {
+	background: $color-main;
+}
+.fc {
+	color: #fff;
+	background: $color-base;
+	opacity: 0.5;
+}
+.fc02 {
+	background: $color-footer;
+}
+.gnav a{
+	color: #fff;
+}
+.gnav:active {
+	color: $color-accent;
+}
+
+.card {
+	background: $color-base;
+}
+.card  p {
+	text-align: center;
+	color: #fff;
+}
+.development .card:hover{
+	transform: scale(1.05);
+}
+.gnav li:hover {
+		transform: scale(1.1);
+}

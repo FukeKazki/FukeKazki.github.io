@@ -1,16 +1,16 @@
-.button{
+.button {
 	border: 1px solid #fff;
 	margin-bottom: 1em;
 	transition: all 0.5s;
 }
-.button:hover{
+.button:hover {
 	transform: scale(1.05);
 }
-.button a{
+.button > a {
 	display: block;
 	padding: 0.5em;
 }
-.button p{
+.button p {
 	text-align: center;
 	color: #fff;
 }

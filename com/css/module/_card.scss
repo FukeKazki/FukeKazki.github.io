@@ -8,3 +8,11 @@
 		margin-bottom: 1em;
 	}
 }
+
+.card-link {
+	padding: 0;
+}
+.card-link > a {
+	display: block;
+	padding: 1.5em;
+}
