@@ -4,7 +4,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fiel
 article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video, time[pubdate] {
-  margin: 0em 0 0 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -199,21 +199,13 @@ h1 + *, h2 + *, h3 + *, h4 + * {
   visibility: hidden;
 }
 
-/* CSS Document */
-/*
-BaseColor: rgb(204, 184, 202)
-MainColor: rgb(244, 180, 208)
-AccentColor: rgb(181, 245, 217)
-*/
-/*FONT*/
 body {
   font-family: 'Noto Serif JP', serif;
   font-family: 'Playfair Display', serif;
 }
 
-/*LAYOUT*/
 header, nav, .nc, .nc ul {
-  background: #f4b8ca;
+  background: #f4b4d0;
 }
 
 .mc {
