@@ -1,0 +1,12 @@
+.development, .link, .life {
+	display: flex;
+	@include min-screen($breakpoint-pc) {
+		justify-content: space-around;
+	}
+	@include max-screen($breakpoint-sm) {
+		flex-direction: column;
+	}
+}
+.development .card:hover{
+	transform: scale(1.05);
+}

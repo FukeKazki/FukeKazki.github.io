@@ -1,0 +1,13 @@
+.fc01{
+	padding: 1em 0;
+	margin: 0 auto;
+	@include min-screen($breakpoint-pc) {
+		width: $width-container-pc;
+	}
+	@include max-screen($breakpoint-sm) {
+		width: $width-container-sm;
+	}
+}
+.fc02{
+	padding: 1em 0;
+}

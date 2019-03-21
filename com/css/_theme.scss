@@ -1,0 +1,46 @@
+//FONT
+body {
+	font-family: 'Noto Serif JP', serif;
+	font-family: 'Playfair Display', serif;
+}
+
+header,nav,.nc,.nc ul{
+	background: $color-main;
+}
+.fc{
+	color: #fff;
+	background: $color-base;
+}
+.fc02 {
+	background: $color-footer;
+}
+.gnav a{
+	color: #fff;
+}
+.gnav .active {
+	color: rgb(181, 245, 217);
+}
+
+.card {
+	background: rgb(204, 184, 202);
+}
+.card .section-title{
+	color: #fff;
+}
+.card .text{
+	padding: 1em;
+	color: #fff;
+}
+.card p {
+	color: #fff;
+}
+.link .card{
+	padding: 1em;
+}
+.fixed{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+}

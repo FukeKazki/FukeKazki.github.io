@@ -1,6 +1,20 @@
 //Font
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP|Playfair+Display');
 //Files
-@import '_reset';
-@import '_layout';
-@import '_style';
+@import 'setting';
+@import 'mixins';
+
+@import 'reset';
+
+@import 'layout/header';
+@import 'layout/nav';
+@import 'layout/main';
+@import 'layout/footer';
+@import 'layout/development';
+
+@import 'module/btn';
+@import 'module/card';
+@import 'module/text';
+@import 'module/navToggle';
+
+@import 'theme';
