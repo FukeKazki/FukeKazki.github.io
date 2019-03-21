@@ -1,0 +1,40 @@
+.nc {
+	margin: 0 auto;
+	@include min-screen($breakpoint-pc) {
+		width: $width-container-pc;
+	}
+	@include max-screen($breakpoint-sm) {
+		width: $width-container-sm;
+	}
+}
+
+.gnav {
+	@include max-screen($breakpoint-sm) {
+		display: none;
+		position: relative;
+	}
+	li {
+		@include min-screen($breakpoint-pc) {
+			width: 20%;
+			float: left;
+			transition: all 0.5s;
+		}
+		@include max-screen($breakpoint-sm) {
+			border-bottom: 1px dotted #fff;
+			transition: all 0.5s;
+		}
+		&:last-child {
+			@include max-screen($breakpoint-sm) {
+				border: none;
+			}
+		}
+	}
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+}

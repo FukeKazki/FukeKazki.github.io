@@ -3,15 +3,14 @@
 //Files
 @import 'setting';
 @import 'mixins';
-
 @import 'reset';
 
-@import 'layout/header';
-@import 'layout/nav';
-@import 'layout/main';
-@import 'layout/footer';
 @import 'layout/flexbox';
 
+@import 'module/header';
+@import 'module/nav';
+@import 'module/main';
+@import 'module/footer';
 @import 'module/btn';
 @import 'module/card';
 @import 'module/navToggle';

@@ -8,44 +8,49 @@
 	position: absolute;
 	top: 0;
 	right: 0;
+	
+	div {
+		position: relative;
+	}
+	span {
+		display: block;
+		height: 3px;
+		background:#fff;
+		position: absolute;
+		width: 100%;
+		right: 0;
+		-webkit-transition: 0.5s ease-in-out;
+		-moz-transition: 0.5s ease-in-out;
+		transition: 0.5s ease-in-out;
+		
+		&:nth-child(1) {
+			top:0px;
+		}
+		&:nth-child(2) {
+			top:12px;
+		}
+		&:nth-child(3) {
+			top:24px;
+		}
+	}
 }
-#nav_toggle div{
-	position: relative;
-}
-#nav_toggle span{
-	display: block;
-	height: 3px;
-	background:#fff;
-	position: absolute;
-	width: 100%;
-	right: 0;
-	-webkit-transition: 0.5s ease-in-out;
-	-moz-transition: 0.5s ease-in-out;
-	transition: 0.5s ease-in-out;
-}
-#nav_toggle span:nth-child(1){
-		top:0px;
-}
-#nav_toggle span:nth-child(2){
-		top:12px;
-}
-#nav_toggle span:nth-child(3){
-		top:24px;
-}	
+
 /*開閉ボタンopen時*/
-.open #nav_toggle span:nth-child(1) {
-			top: 12px;
-		   -webkit-transform: rotate(135deg);
-			-moz-transform: rotate(135deg);
-			transform: rotate(135deg);
-}
-.open #nav_toggle span:nth-child(2) {
-			width: 0;
-			left: 50%;
-}
-.open #nav_toggle span:nth-child(3) {
-			top: 12px;
-			-webkit-transform: rotate(-135deg);
-			-moz-transform: rotate(-135deg);
-			transform: rotate(-135deg);
+.open #nav_toggle span {
+	&:nth-child(1) {
+		top: 12px;
+	   -webkit-transform: rotate(135deg);
+		-moz-transform: rotate(135deg);
+		transform: rotate(135deg);
+	}
+	&:nth-child(2) {
+		width: 0;
+		left: 50%;
+	}
+	&:nth-child(3) {
+		top: 12px;
+		-webkit-transform: rotate(-135deg);
+		-moz-transform: rotate(-135deg);
+		transform: rotate(-135deg);
+	}
 }
