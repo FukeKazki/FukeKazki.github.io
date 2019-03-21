@@ -5,77 +5,97 @@ article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video, time[pubdate] {
   margin: 0em 0 0 0;
-  padding: 0; }
+  padding: 0;
+}
 
 article, aside, canvas, details, figcaption, figure, main,
 footer, header, hgroup, menu, nav, section, summary, time[pubdate] {
-  display: block; }
+  display: block;
+}
 
 figure {
-  text-align: center; }
+  text-align: center;
+}
 
 figure img {
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
 figure figcaption {
-  text-align: left; }
+  text-align: left;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 fieldset, img {
-  border: 0; }
+  border: 0;
+}
 
 address, caption, cite, code, dfn, em, strong, th, var {
   font-style: normal;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 li {
-  list-style: none; }
+  list-style: none;
+}
 
 caption, th {
-  text-align: left; }
+  text-align: left;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 q:before, q:after {
-  content: ''; }
+  content: '';
+}
 
 abbr, acronym {
   border: 0;
-  font-variant: normal; }
+  font-variant: normal;
+}
 
 sup {
-  vertical-align: text-top; }
+  vertical-align: text-top;
+}
 
 sub {
-  vertical-align: text-bottom; }
+  vertical-align: text-bottom;
+}
 
 input, textarea, select {
   font-family: inherit;
   font-size: inherit;
-  font-weight: inherit; }
+  font-weight: inherit;
+}
 
 input, textarea, select {
-  *font-size: 100%; }
+  *font-size: 100%;
+}
 
 legend {
-  color: #000000; }
+  color: #000000;
+}
 
 hr {
   display: block;
   margin-top: 2.0em;
   border: none;
   border-collapse: collapse;
-  border-top: solid 1px #666666; }
+  border-top: solid 1px #666666;
+}
 
 /* ReStyled */
 html {
-  background: #FFFFFF; }
+  background: #FFFFFF;
+}
 
 body {
   margin: 0;
@@ -88,29 +108,35 @@ body {
   border-collapse: collapse;
   word-wrap: break-word;
   -webkit-text-size-adjust: 100%;
-  color: #4d4d4d; }
+  color: #4d4d4d;
+}
 
 select, input, button, textarea {
-  font: 93% arial,helvetica,clean,sans-serif; }
+  font: 93% arial,helvetica,clean,sans-serif;
+}
 
 table {
   font-size: inherit;
-  font: 100%; }
+  font: 100%;
+}
 
 pre, code, kbd, samp, tt {
   font-family: monospace;
   *font-size: 108%;
-  line-height: 100%; }
+  line-height: 100%;
+}
 
 th, td {
-  vertical-align: top; }
+  vertical-align: top;
+}
 
 img {
   border: none;
   max-width: 100%;
   height: auto;
   image-rendering: auto;
-  /* CSS4 (Chrome) */ }
+  /* CSS4 (Chrome) */
+}
 
 imgd {
   -webkit-backface-visibility: hidden;
@@ -122,22 +148,27 @@ imgd {
   image-rendering: pixelated;
   /* CSS4 (Chrome) */
   -ms-interpolation-mode: nearest-neighbor;
-  /* IE */ }
+  /* IE */
+}
 
 caption {
-  font-size: 85%; }
+  font-size: 85%;
+}
 
 strong {
-  font-weight: 600; }
+  font-weight: 600;
+}
 
 em {
   font-weight: 600;
   font-size: 129%;
-  font-style: normal; }
+  font-style: normal;
+}
 
 a {
   color: #00A0E9;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 /* color:#202020;*/
 * {
@@ -145,15 +176,18 @@ a {
   -moz-box-sizing: border-box;
   -o-box-sizing: border-box;
   -ms-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 .clearfix:after {
   content: "";
   display: block;
-  clear: both; }
+  clear: both;
+}
 
 h1 + *, h2 + *, h3 + *, h4 + * {
-  margin-top: 1.0em; }
+  margin-top: 1.0em;
+}
 
 .safety {
   display: block;
@@ -162,7 +196,8 @@ h1 + *, h2 + *, h3 + *, h4 + * {
   width: 1px;
   height: 1px;
   overflow: hidden;
-  visibility: hidden; }
+  visibility: hidden;
+}
 
 /* CSS Document */
 /*
@@ -173,33 +208,40 @@ AccentColor: rgb(181, 245, 217)
 /*FONT*/
 body {
   font-family: 'Noto Serif JP', serif;
-  font-family: 'Playfair Display', serif; }
+  font-family: 'Playfair Display', serif;
+}
 
 /*LAYOUT*/
 header, nav, .nc, .nc ul {
-  background: #f4b8ca; }
+  background: #f4b8ca;
+}
 
 .mc {
-  padding: 2em 0; }
+  padding: 2em 0;
+}
 
 .fc {
   color: #fff;
-  background: rgba(204, 184, 202, 0.5); }
+  background: rgba(204, 184, 202, 0.5);
+}
 
 .fc01 {
-  padding: 1em 0; }
+  padding: 1em 0;
+}
 
 .fc02 {
   padding: 1em 0;
   color: #fff;
-  background: #b3a1b1; }
+  background: #b3a1b1;
+}
 
 /*TEXT*/
 .title {
   margin: 0;
   padding: 1em;
   font-size: 1.5em;
-  color: #fff; }
+  color: #fff;
+}
 
 .page-title {
   margin-top: 30px;
@@ -207,7 +249,8 @@ header, nav, .nc, .nc ul {
   text-align: center;
   font-size: 200%;
   font-weight: 600;
-  line-height: 1.5; }
+  line-height: 1.5;
+}
 
 .page-title-sub {
   margin: 0;
@@ -215,7 +258,8 @@ header, nav, .nc, .nc ul {
   text-align: center;
   font-weight: 600;
   font-size: 108%;
-  letter-spacing: 0.2em; }
+  letter-spacing: 0.2em;
+}
 
 .article-title {
   margin-top: 2em;
@@ -223,7 +267,8 @@ header, nav, .nc, .nc ul {
   text-align: center;
   font-size: 180%;
   font-weight: bold;
-  letter-spacing: .1em; }
+  letter-spacing: .1em;
+}
 
 .article-title-sub {
   margin: 0;
@@ -231,10 +276,12 @@ header, nav, .nc, .nc ul {
   text-align: center;
   font-weight: 600;
   font-size: 108%;
-  letter-spacing: 0.2em; }
+  letter-spacing: 0.2em;
+}
 
 .article-title-icon {
-  margin-right: 0.5em; }
+  margin-right: 0.5em;
+}
 
 .section-title {
   margin: 0;
@@ -242,7 +289,8 @@ header, nav, .nc, .nc ul {
   text-align: center;
   font-size: 1.5em;
   font-weight: 200;
-  letter-spacing: .1em; }
+  letter-spacing: .1em;
+}
 
 .section-title-sub {
   margin: 0;
@@ -250,51 +298,62 @@ header, nav, .nc, .nc ul {
   padding-bottom: 5px;
   text-align: center;
   font-size: 1em;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 /*デコレーション*/
 .article-title {
   width: 300px;
   margin-right: auto;
   margin-left: auto;
-  background: linear-gradient(transparent 95%, #b5f5d9 95%); }
+  background: linear-gradient(transparent 95%, #b5f5d9 95%);
+}
 
 /*その他共通設定*/
 .gnav a {
-  color: #fff; }
+  color: #fff;
+}
 
 .life p {
-  text-align: center; }
+  text-align: center;
+}
 
 .life .section-title-sub {
-  margin: 1em 0; }
+  margin: 1em 0;
+}
 
 /*ボタン*/
 .button {
   border: 1px solid #fff;
   margin-bottom: 1em;
-  transition: all 0.5s; }
+  transition: all 0.5s;
+}
 
 .button:hover {
-  transform: scale(1.05); }
+  transform: scale(1.05);
+}
 
 .button a {
   display: block;
-  padding: 0.5em; }
+  padding: 0.5em;
+}
 
 .button p {
   text-align: center;
-  color: #fff; }
+  color: #fff;
+}
 
 @media screen and (min-width: 481px) {
   /* CSS Document */
   .sm-only {
-    display: none !important; }
+    display: none !important;
+  }
 
   /*LAYOUT*/
   .hc, .mc, .nc, .fc01 {
     width: 1200px;
-    margin: 0 auto; }
+    margin: 0 auto;
+  }
 
   /*グローバルナビ*/
   .fixed {
@@ -302,88 +361,111 @@ header, nav, .nc, .nc ul {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 2; }
+    z-index: 2;
+  }
 
   .gnav li {
     width: 20%;
     float: left;
-    transition: all 0.5s; }
+    transition: all 0.5s;
+  }
 
   .gnav li:hover {
-    transform: scale(1.1); }
+    transform: scale(1.1);
+  }
 
   .gnav .active {
-    color: #b5f5d9; }
+    color: #b5f5d9;
+  }
 
   /*開発*/
   .development {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+  }
 
   .card {
     width: 300px;
     background: #ccb8ca;
     transition: all 0.5s;
-    padding: 1.5em; }
+    padding: 1.5em;
+  }
 
   .development .card:hover {
-    transform: scale(1.05); }
+    transform: scale(1.05);
+  }
 
   .card .section-title {
-    color: #fff; }
+    color: #fff;
+  }
 
   .card .text {
     padding: 1em;
-    color: #fff; }
+    color: #fff;
+  }
 
   /*リンク*/
   .link, .life {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+  }
 
   .card p {
-    color: #fff; } }
+    color: #fff;
+  }
+}
 @media screen and (max-width: 480px) {
   /* CSS Document */
   .pc-only {
-    display: none !important; }
+    display: none !important;
+  }
 
   .hc, .mc, .fc01 {
     width: 90%;
-    margin: 0 auto; }
+    margin: 0 auto;
+  }
 
   .development {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+  }
 
   .card {
     margin-bottom: 1em;
     background: #ccb8ca;
-    padding: 1.5em; }
+    padding: 1.5em;
+  }
 
   .card p {
-    color: #fff; }
+    color: #fff;
+  }
 
   .link .card {
-    padding: 1em; }
+    padding: 1em;
+  }
 
   /*ハンバーガーメニュー*/
   .gnav {
     display: none;
-    position: relative; }
+    position: relative;
+  }
 
   .gnav a {
-    color: #fff; }
+    color: #fff;
+  }
 
   .gnav li {
     border-bottom: 1px dotted #fff;
-    transition: all 0.5s; }
+    transition: all 0.5s;
+  }
 
   .gnav li:hover {
-    transform: scale(1.05); }
+    transform: scale(1.05);
+  }
 
   .gnav li:last-child {
-    border: none; }
+    border: none;
+  }
 
   #nav_toggle {
     display: block;
@@ -391,10 +473,12 @@ header, nav, .nc, .nc ul {
     height: 40px;
     position: absolute;
     top: 0;
-    right: 0; }
+    right: 0;
+  }
 
   #nav_toggle div {
-    position: relative; }
+    position: relative;
+  }
 
   #nav_toggle span {
     display: block;
@@ -405,30 +489,38 @@ header, nav, .nc, .nc ul {
     right: 0;
     -webkit-transition: 0.5s ease-in-out;
     -moz-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out; }
+    transition: 0.5s ease-in-out;
+  }
 
   #nav_toggle span:nth-child(1) {
-    top: 0px; }
+    top: 0px;
+  }
 
   #nav_toggle span:nth-child(2) {
-    top: 12px; }
+    top: 12px;
+  }
 
   #nav_toggle span:nth-child(3) {
-    top: 24px; }
+    top: 24px;
+  }
 
   /*開閉ボタンopen時*/
   .open #nav_toggle span:nth-child(1) {
     top: 12px;
     -webkit-transform: rotate(135deg);
     -moz-transform: rotate(135deg);
-    transform: rotate(135deg); }
+    transform: rotate(135deg);
+  }
 
   .open #nav_toggle span:nth-child(2) {
     width: 0;
-    left: 50%; }
+    left: 50%;
+  }
 
   .open #nav_toggle span:nth-child(3) {
     top: 12px;
     -webkit-transform: rotate(-135deg);
     -moz-transform: rotate(-135deg);
-    transform: rotate(-135deg); } }
+    transform: rotate(-135deg);
+  }
+}
