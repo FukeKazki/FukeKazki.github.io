@@ -19,21 +19,9 @@ $(function(){
 			});
 		
 		{
-		let url = window.location;
-		$('.gnav a[href="'+url+'"]').addClass('active');
+			let url = window.location;
+			$('.gnav a[href="'+url+'"]').addClass('active');
 		}
 		
-	});
-	
-	
-	//桜が降る
-//	$(document).snowfall({
-//		maxSize: 100,
-//		maxSpeed: 5,
-//		round: true,
-//		flakeColor: "pink",
-//		image: 'com/img/sakura.png',
-//	});
-	
-	
+	});	
 });
