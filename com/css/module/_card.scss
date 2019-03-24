@@ -2,6 +2,7 @@
 	padding: 1.5em;
 	@include min-screen($breakpoint-pc) {
 		width: 300px;
+		margin-left: 10px;
 		transition: all 0.5s;
 	}
 	@include max-screen($breakpoint-sm) {
