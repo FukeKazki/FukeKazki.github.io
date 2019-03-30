@@ -1,4 +1,4 @@
-# Fukke's Portfolio
+# [Fukke's Portfolio](https://fukekazki.github.io/src/profile.html)
 HTML / CSS(SCSS) / JavaScript(jQuery)を使った簡単なポートフォリオの作成
 ## 配色
 * BaseColor: rgb(204, 184, 202)
