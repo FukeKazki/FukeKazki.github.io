@@ -408,6 +408,48 @@ h1 + *, h2 + *, h3 + *, h4 + * {
   transform: rotate(-135deg);
 }
 
+.hero-img {
+  height: 100vh;
+  margin: 1em;
+  padding: 0;
+  animation: swichHeroImg 30s linear infinite;
+  background-size: cover;
+  background-position: center;
+}
+.hero-img .hero-mask {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-img .hero-title {
+  font-weight: bold;
+  font-size: 4em;
+  color: #000;
+}
+
+@keyframes swichHeroImg {
+  0% {
+    background: url(../../com/img/hentaiHackthon02.jpg);
+  }
+  20% {
+    background: url(../../com/img/hentaiHackthon01.jpg);
+  }
+  40% {
+    background: url(../../com/img/hentaiHackthon03.jpg);
+  }
+  60% {
+    background: url(../../com/img/DeepLarning01.jpg);
+  }
+  80% {
+    background: url(../../com/img/HTMLCSS01.jpg);
+  }
+  100% {
+    background: url(../../com/img/IoT01.jpg);
+  }
+}
 body {
   font-family: 'Noto Serif JP', serif;
   font-family: 'Playfair Display', serif;
