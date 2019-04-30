@@ -2,7 +2,6 @@
     height: 100vh;
     margin: 1em;
     padding: 0;
-    animation: swichHeroImg 30s linear infinite;
     background-size: cover;
     background-position: center;
     .hero-mask {
@@ -17,28 +16,5 @@
         font-weight: bold;
         font-size: 4em;
         color: #000;
-    }
-}
-
-@keyframes swichHeroImg {
-    0% {
-        background: url(../../com/img/hentaiHackthon02.jpg);
-    }
-    20% {
-        background: url(../../com/img/hentaiHackthon01.jpg);
-    }
-    40% {
-        background: url(../../com/img/hentaiHackthon03.jpg);
-//        transform: scale(0.7);
-    }
-    60% {
-        background: url(../../com/img/DeepLarning01.jpg);
-    }
-    80% {
-        background: url(../../com/img/HTMLCSS01.jpg);
-    }
-    100% {
-        background: url(../../com/img/IoT01.jpg);
-//        transform: scale(1);
     }
 }
