@@ -712,6 +712,14 @@ header, nav, .nc {
   transform: scale(1.1);
 }
 
+.news li {
+  border-bottom: 1px dotted #ccc;
+  padding: 1em;
+}
+.news li:last-child {
+  border: none;
+}
+
 .title {
   margin: 0;
   padding: 1.5em;
