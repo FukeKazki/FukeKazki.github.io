@@ -596,7 +596,6 @@ h1 + *, h2 + *, h3 + *, h4 + * {
   height: 100vh;
   margin: 1em;
   padding: 0;
-  animation: swichHeroImg 30s linear infinite;
   background-size: cover;
   background-position: center;
 }
@@ -614,26 +613,6 @@ h1 + *, h2 + *, h3 + *, h4 + * {
   color: #000;
 }
 
-@keyframes swichHeroImg {
-  0% {
-    background: url(../../com/img/hentaiHackthon02.jpg);
-  }
-  20% {
-    background: url(../../com/img/hentaiHackthon01.jpg);
-  }
-  40% {
-    background: url(../../com/img/hentaiHackthon03.jpg);
-  }
-  60% {
-    background: url(../../com/img/DeepLarning01.jpg);
-  }
-  80% {
-    background: url(../../com/img/HTMLCSS01.jpg);
-  }
-  100% {
-    background: url(../../com/img/IoT01.jpg);
-  }
-}
 @media screen and (min-width: 481px) {
   .timeline {
     margin-left: 10em;
@@ -731,6 +710,14 @@ header, nav, .nc {
 
 .gnav li:hover {
   transform: scale(1.1);
+}
+
+.news li {
+  border-bottom: 1px dotted #ccc;
+  padding: 1em;
+}
+.news li:last-child {
+  border: none;
 }
 
 .title {
