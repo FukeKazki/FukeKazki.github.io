@@ -1,3 +1,4 @@
+.flex {display: flex;}
 .flexbox {
 	display: flex;
 	@include min-screen($breakpoint-pc) {
@@ -8,6 +9,5 @@
 	}
 }
 
-.flexWrap {
-    flex-wrap: wrap;
-}
+.flexWrap {flex-wrap: wrap;}
+.alignItems {align-items: center;}
