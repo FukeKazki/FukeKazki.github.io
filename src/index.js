@@ -39,3 +39,6 @@ $(function(){
         animation: 'random',
     });
 });
+document.addEventListener('DOMContentLoaded', function(){
+  var trigger = new ScrollTrigger();
+});
