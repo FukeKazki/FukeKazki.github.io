@@ -740,6 +740,10 @@ header, nav, .nc {
   width: 30%;
 }
 
+.text {
+  color: #4d4d4d;
+}
+
 .title {
   margin: 0;
   padding: 1.5em;
@@ -814,4 +818,34 @@ header, nav, .nc {
   margin-right: auto;
   margin-left: auto;
   background: linear-gradient(transparent 95%, #b5f5d9 95%);
+}
+
+.fromLeftIn {
+  transition: transform 2.0s ease, opacity 1.0s ease;
+  transform: translate(0, 0);
+  opacity: 1.0;
+}
+
+.fromLeftOut {
+  transition: transform 2.0s ease, opacity 1.0s ease;
+  transform: translate(-100px, 0);
+  opacity: 0.0;
+}
+
+.fromRightIn {
+  transition: transform 2.0s ease, opacity 1.0s ease;
+  transform: translate(0, 0);
+  opacity: 1.0;
+}
+
+.fromRightOut {
+  transition: transform 2.0s ease, opacity 1.0s ease;
+  transform: translate(100px, 0);
+  opacity: 0.0;
+}
+
+@media screen and (max-width: 480px) {
+  article[data-scroll] {
+    transform: none;
+  }
 }
