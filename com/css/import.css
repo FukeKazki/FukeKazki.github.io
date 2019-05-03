@@ -225,6 +225,12 @@ h1 + *, h2 + *, h3 + *, h4 + * {
   align-items: center;
 }
 
+@media screen and (max-width: 480px) {
+  .smColumn {
+    flex-direction: column;
+  }
+}
+
 .mt-1 {
   margin-top: 1em;
 }
@@ -421,9 +427,11 @@ header.top {
   z-index: 100;
 }
 
-.hc {
-  display: flex;
-  align-items: center;
+@media screen and (min-width: 481px) {
+  .hc {
+    display: flex;
+    align-items: center;
+  }
 }
 @media screen and (max-width: 480px) {
   .hc {
@@ -437,13 +445,30 @@ header.top {
 .gnav {
   margin: 0 0 0 auto;
 }
+@media screen and (max-width: 480px) {
+  .gnav {
+    display: none;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+  }
+}
 .gnav ul {
   display: flex;
 }
 @media screen and (max-width: 480px) {
-  .gnav {
-    display: none;
-    position: relative;
+  .gnav ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.8);
   }
 }
 @media screen and (min-width: 481px) {
@@ -454,6 +479,7 @@ header.top {
 }
 @media screen and (max-width: 480px) {
   .gnav li {
+    padding: 1em 2em;
     border-bottom: 1px dotted #fff;
     transition: all 0.5s;
   }
@@ -558,6 +584,8 @@ header.top {
   position: absolute;
   top: 0;
   right: 0;
+  z-index: 999;
+  margin-top: 2em;
 }
 @media screen and (min-width: 481px) {
   #nav_toggle {
@@ -624,7 +652,7 @@ header.top {
 .hero-img .hero-title {
   font-weight: bold;
   font-size: 4em;
-  color: #000;
+  color: #fff;
 }
 
 @media screen and (min-width: 481px) {
@@ -728,7 +756,7 @@ header.top {
 
 .news li {
   border-bottom: 1px dotted #ccc;
-  padding: 1em;
+  padding: 1em 2em;
 }
 .news li:last-child {
   border: none;
@@ -843,7 +871,7 @@ header.top {
 }
 
 @media screen and (max-width: 480px) {
-  article[data-scroll] {
+  section[data-scroll] {
     transform: none;
   }
 }

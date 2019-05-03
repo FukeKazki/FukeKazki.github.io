@@ -30,7 +30,7 @@
 	opacity: 0.0;
 }
 
-article[data-scroll] {
+section[data-scroll] {
     @include max-screen($breakpoint-sm) {
         transform: none;
     }

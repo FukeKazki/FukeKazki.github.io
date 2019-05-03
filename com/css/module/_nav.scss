@@ -9,19 +9,36 @@
 //}
 .gnav {
     margin: 0 0 0 auto;
-    ul {
-        display: flex;
-    }
 	@include max-screen($breakpoint-sm) {
 		display: none;
-		position: relative;
+//		position: relative;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 100%;
+        z-index: 200;
 	}
+    ul {
+        display: flex;
+        @include max-screen($breakpoint-sm) {
+            flex-direction: column;
+			align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: -100px;
+            left: 0;
+            height: 100vh;
+            width: 100vw;
+            background: rgba(0, 0, 0, 0.8);
+		}
+    }
 	li {
 		@include min-screen($breakpoint-pc) {
             padding: 0 2em;
 			transition: all 0.5s;
 		}
 		@include max-screen($breakpoint-sm) {
+            padding: 1em 2em;
 			border-bottom: 1px dotted #fff;
 			transition: all 0.5s;
 		}
