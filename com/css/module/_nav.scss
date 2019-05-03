@@ -1,22 +1,24 @@
-.nc {
-	margin: 0 auto;
-	@include min-screen($breakpoint-pc) {
-		width: $width-container-pc;
-	}
-	@include max-screen($breakpoint-sm) {
-		width: $width-container-sm;
-	}
-}
-
+//.nc {
+//	margin: 0 auto;
+//	@include min-screen($breakpoint-pc) {
+//		width: $width-container-pc;
+//	}
+//	@include max-screen($breakpoint-sm) {
+//		width: $width-container-sm;
+//	}
+//}
 .gnav {
+    margin: 0 0 0 auto;
+    ul {
+        display: flex;
+    }
 	@include max-screen($breakpoint-sm) {
 		display: none;
 		position: relative;
 	}
 	li {
 		@include min-screen($breakpoint-pc) {
-			width: 16.666%;
-			float: left;
+            padding: 0 2em;
 			transition: all 0.5s;
 		}
 		@include max-screen($breakpoint-sm) {

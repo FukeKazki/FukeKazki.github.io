@@ -4,8 +4,11 @@ body {
 	font-family: 'Playfair Display', serif;
 }
 
-header, nav, .nc {
+header {
 	background: $color-main;
+}
+header.top {
+    background: transparent;
 }
 .fc {
 	color: #fff;
@@ -32,9 +35,9 @@ header, nav, .nc {
 .development .card:hover{
 	transform: scale(1.05);
 }
-.gnav li:hover {
-		transform: scale(1.1);
-}
+//.gnav li:hover {
+//		transform: scale(1.1);
+//}
 .news li {
     border-bottom: 1px dotted #ccc;
     padding: 1em;
