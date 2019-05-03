@@ -418,6 +418,7 @@ header.top {
   width: 100%;
   top: 0;
   left: 0;
+  z-index: 100;
 }
 
 .hc {
@@ -686,7 +687,7 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
-header, nav, .nc {
+header {
   background: #f4b4d0;
 }
 
