@@ -16,7 +16,7 @@
 	span {
 		display: block;
 		height: 3px;
-		background:#fff;
+		background:#000;
 		position: absolute;
 		width: 100%;
 		right: 0;
@@ -38,6 +38,7 @@
 
 /*開閉ボタンopen時*/
 .open #nav_toggle span {
+    background: #fff;
 	&:nth-child(1) {
 		top: 12px;
 	   -webkit-transform: rotate(135deg);
