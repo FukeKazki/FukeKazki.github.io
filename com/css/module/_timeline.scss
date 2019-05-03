@@ -11,6 +11,8 @@
     }
     @include max-screen($breakpoint-sm) {
         margin-bottom: 1em;
+        border-bottom: 1px dotted #4d4d4d;
+        p {margin: 0;}
     }
 }
 .timeline-date {

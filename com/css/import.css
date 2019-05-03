@@ -677,6 +677,10 @@ header.top {
 @media screen and (max-width: 480px) {
   .timeline > li {
     margin-bottom: 1em;
+    border-bottom: 1px dotted #4d4d4d;
+  }
+  .timeline > li p {
+    margin: 0;
   }
 }
 
