@@ -730,13 +730,7 @@ header.top .gnav a, header.top .title a {
 }
 
 .fc {
-  color: #fff;
-  background: #ccb8ca;
-  opacity: 0.5;
-}
-
-.fc02 {
-  background: #b3a1b1;
+  color: #4d4d4d;
 }
 
 .card {
