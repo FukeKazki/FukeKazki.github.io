@@ -1,9 +1,20 @@
+header.top {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
 .hc {
-	margin: 0 auto;
-	@include min-screen($breakpoint-pc) {
-		width: $width-container-pc;
-	}
+    display: flex;
+    align-items: center;
+//	@include min-screen($breakpoint-pc) {
+//		width: $width-container-pc;
+//	}
 	@include max-screen($breakpoint-sm) {
 		width: $width-container-sm;
 	}
+    .title {
+        margin-left: 2em;
+    }
 }
