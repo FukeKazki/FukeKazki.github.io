@@ -11,3 +11,8 @@
 
 .flexWrap {flex-wrap: wrap;}
 .alignItems {align-items: center;}
+.smColumn {
+    @include max-screen($breakpoint-sm) {
+		flex-direction: column;
+	}
+}
