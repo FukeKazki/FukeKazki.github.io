@@ -4,6 +4,9 @@ body {
 	font-family: 'Playfair Display', serif;
 }
 .gnav a {
+    @include max-screen($breakpoint-sm) {
+        color: #fff;
+    }
     color: #4d4d4d;
 }
 header {
@@ -15,6 +18,9 @@ header.top {
     border: none;
     .gnav a, .title a{
         color: #fff;
+    }
+    #nav_toggle span {
+        background: #fff;
     }
 }
 footer {

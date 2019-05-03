@@ -476,6 +476,9 @@ header.top {
     padding: 0 2em;
     transition: all 0.5s;
   }
+  .gnav li a.active p {
+    border-bottom: 1px solid #4d4d4d;
+  }
 }
 @media screen and (max-width: 480px) {
   .gnav li {
@@ -488,9 +491,6 @@ header.top {
   .gnav li:last-child {
     border: none;
   }
-}
-.gnav a.active p {
-  border-bottom: 1px solid #4d4d4d;
 }
 
 .fixed {
@@ -601,7 +601,7 @@ header.top {
 #nav_toggle span {
   display: block;
   height: 3px;
-  background: #fff;
+  background: #000;
   position: absolute;
   width: 100%;
   right: 0;
@@ -620,6 +620,9 @@ header.top {
 }
 
 /*開閉ボタンopen時*/
+.open #nav_toggle span {
+  background: #fff;
+}
 .open #nav_toggle span:nth-child(1) {
   top: 12px;
   -webkit-transform: rotate(135deg);
@@ -721,6 +724,11 @@ body {
 .gnav a {
   color: #4d4d4d;
 }
+@media screen and (max-width: 480px) {
+  .gnav a {
+    color: #fff;
+  }
+}
 
 header {
   border-bottom: 1px solid #4d4d4d;
@@ -733,6 +741,9 @@ header.top {
 }
 header.top .gnav a, header.top .title a {
   color: #fff;
+}
+header.top #nav_toggle span {
+  background: #fff;
 }
 
 footer {

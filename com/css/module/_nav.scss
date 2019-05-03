@@ -36,6 +36,9 @@
 		@include min-screen($breakpoint-pc) {
             padding: 0 2em;
 			transition: all 0.5s;
+            a.active p {
+                border-bottom: 1px solid #4d4d4d;
+            }
 		}
 		@include max-screen($breakpoint-sm) {
             padding: 1em 2em;
@@ -48,9 +51,6 @@
 			}
 		}
 	}
-    a.active p {
-        border-bottom: 1px solid #4d4d4d;
-    }
 }
 
 .fixed {
