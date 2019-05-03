@@ -7,11 +7,10 @@ header.top {
 }
 
 .hc {
-    display: flex;
-    align-items: center;
-//	@include min-screen($breakpoint-pc) {
-//		width: $width-container-pc;
-//	}
+    @include min-screen($breakpoint-pc) {
+        display: flex;
+        align-items: center;
+    }
 	@include max-screen($breakpoint-sm) {
 		width: $width-container-sm;
 	}
