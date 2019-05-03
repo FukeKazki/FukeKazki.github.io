@@ -2,12 +2,12 @@
     @include min-screen($breakpoint-pc) {
         margin-left: 10em;
     }
-    p {margin: 0;}
 }
 .timeline > li {
     @include min-screen($breakpoint-pc) {
         margin: 0;
         position: relative;
+        display: flex;
     }
     @include max-screen($breakpoint-sm) {
         margin-bottom: 1em;
@@ -15,18 +15,14 @@
 }
 .timeline-date {
     @include min-screen($breakpoint-pc) {
-        width: 110px;
-        float: left;
-        margin-top: 20px;
+        width: 200px;
+        margin-top: 0;
     }
 }
 .timeline-content {
     @include min-screen($breakpoint-pc) {
-        width: 75%;
-        float: left;
         border-left: 3px $color-base solid;
-        padding-left: 30px;
-        padding-top: 20px;
+        padding: 1em 4em;
     }
     h3 {font-weight: bold;}
 }
@@ -37,7 +33,7 @@
         height: 12px;
         background: $color-accent;
         position: absolute;
-        left: 106px;
+        left: 195px;
         top: 24px;
         border-radius: 100%;
     }
