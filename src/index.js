@@ -17,8 +17,11 @@ $(function(){
         });
 
     {
-        let url = window.location;
-        $('.gnav a[href="'+url+'"]').addClass('active');
+        //現在のページのリンク
+        let pathname = window.location.pathname;
+        const array = pathname.split('/');
+        pathname = array.slice(-1)[0];
+        $('.gnav a[href="'+'./'+pathname+'"]').addClass('active');
     }
 		
     $('.hero-img').vegas({
@@ -37,5 +40,5 @@ $(function(){
     });
 });
 document.addEventListener('DOMContentLoaded', function(){
-  var trigger = new ScrollTrigger();
+  const trigger = new ScrollTrigger();
 });
