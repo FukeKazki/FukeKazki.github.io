@@ -3,34 +3,34 @@ body {
 	font-family: 'Noto Serif JP', serif;
 	font-family: 'Playfair Display', serif;
 }
-
+.gnav a {
+    color: #4d4d4d;
+}
 header {
-	background: $color-main;
+    border-bottom: 1px solid #4d4d4d;
+    background: #fff;
 }
 header.top {
     background: transparent;
+    border: none;
+    .gnav a, .title a{
+        color: #fff;
+    }
+}
+footer {
+    border-top: 1px solid #4d4d4d;
 }
 .fc {
-	color: #fff;
-	background: $color-base;
-	opacity: 0.5;
-}
-.fc02 {
-	background: $color-footer;
-}
-.gnav a{
-	color: #fff;
-}
-.gnav:active {
-	color: $color-accent;
+	color: #4d4d4d;
 }
 
 .card {
-	background: $color-base;
+    border: 1px solid #4d4d4d;
+    border-radius: 1em;
 }
 .card  p {
 	text-align: center;
-	color: #fff;
+	color: #4d4d4d;
 }
 .development .card:hover{
 	transform: scale(1.05);
