@@ -789,6 +789,11 @@ footer {
   width: 15%;
   margin-bottom: -.5em;
 }
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 30%;
+  }
+}
 
 .title {
   margin: 0;
