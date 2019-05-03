@@ -666,37 +666,35 @@ header.top {
     margin-left: 10em;
   }
 }
-.timeline p {
-  margin: 0;
-}
 
 @media screen and (min-width: 481px) {
   .timeline > li {
     margin: 0;
     position: relative;
+    display: flex;
   }
 }
 @media screen and (max-width: 480px) {
   .timeline > li {
     margin-bottom: 1em;
+    border-bottom: 1px dotted #4d4d4d;
+  }
+  .timeline > li p {
+    margin: 0;
   }
 }
 
 @media screen and (min-width: 481px) {
   .timeline-date {
-    width: 110px;
-    float: left;
-    margin-top: 20px;
+    width: 200px;
+    margin-top: 0;
   }
 }
 
 @media screen and (min-width: 481px) {
   .timeline-content {
-    width: 75%;
-    float: left;
     border-left: 3px #ccb8ca solid;
-    padding-left: 30px;
-    padding-top: 20px;
+    padding: 1em 4em;
   }
 }
 .timeline-content h3 {
@@ -710,7 +708,7 @@ header.top {
     height: 12px;
     background: #b5f5d9;
     position: absolute;
-    left: 106px;
+    left: 195px;
     top: 24px;
     border-radius: 100%;
   }
