@@ -489,6 +489,9 @@ header.top {
     border: none;
   }
 }
+.gnav a.active p {
+  border-bottom: 1px solid #4d4d4d;
+}
 
 .fixed {
   position: fixed;
@@ -715,12 +718,15 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
-header {
-  background: #f4b4d0;
+.gnav a {
+  color: #4d4d4d;
 }
 
 header.top {
   background: transparent;
+}
+header.top .gnav a, header.top .title a {
+  color: #fff;
 }
 
 .fc {
@@ -731,14 +737,6 @@ header.top {
 
 .fc02 {
   background: #b3a1b1;
-}
-
-.gnav a {
-  color: #fff;
-}
-
-.gnav:active {
-  color: #b5f5d9;
 }
 
 .card {
@@ -777,7 +775,7 @@ header.top {
   color: #fff;
 }
 .title a {
-  color: #fff;
+  color: #4d4d4d;
 }
 
 .page-title {

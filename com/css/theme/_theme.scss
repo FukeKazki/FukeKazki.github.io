@@ -3,12 +3,14 @@ body {
 	font-family: 'Noto Serif JP', serif;
 	font-family: 'Playfair Display', serif;
 }
-
-header {
-	background: $color-main;
+.gnav a {
+    color: #4d4d4d;
 }
 header.top {
     background: transparent;
+    .gnav a, .title a{
+        color: #fff;
+    }
 }
 .fc {
 	color: #fff;
@@ -18,12 +20,8 @@ header.top {
 .fc02 {
 	background: $color-footer;
 }
-.gnav a{
-	color: #fff;
-}
-.gnav:active {
-	color: $color-accent;
-}
+
+
 
 .card {
 	background: $color-base;
