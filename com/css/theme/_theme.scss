@@ -61,3 +61,16 @@ footer {
         width: 30%;
     }
 }
+
+.reads {
+    border: 1px solid #4d4d4d;
+    padding: 1em 2em;
+    border-radius: 1em;
+}
+.book {
+    padding: 1em;
+    text-align: center;
+    a {display: block;}
+    p {width: 200px; text-align: center;}
+    a h3 {color: #4d4d4d;}
+}
