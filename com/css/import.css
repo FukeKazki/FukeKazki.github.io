@@ -795,6 +795,27 @@ footer {
   }
 }
 
+.reads {
+  border: 1px solid #4d4d4d;
+  padding: 1em 2em;
+  border-radius: 1em;
+}
+
+.book {
+  padding: 1em;
+  text-align: center;
+}
+.book a {
+  display: block;
+}
+.book p {
+  width: 200px;
+  text-align: center;
+}
+.book a h3 {
+  color: #4d4d4d;
+}
+
 .title {
   margin: 0;
   padding: 1em;
