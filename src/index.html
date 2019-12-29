@@ -2,114 +2,683 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>ふっけのポートフォリオ</title>
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<meta name="Description" content="ふっけのポートフォリオサイトです。">
-	<meta name="Keywords" content="ふっけ,北九州高専,コンピュータ研究部">
-	<link rel="stylesheet" href="../com/css/import.css">
-	<link rel="stylesheet" href="../com/js/vegas.css">
+<title>ふっけーのポートフォリオ</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="Description" content="ふっけーのポートフォリオサイトです。">
+<meta name="Keywords" content="ふっけー,北九州高専,コンピュータ研究部">
+<link rel="stylesheet" href="../com/css/import.css">
+<link rel="stylesheet" href="../com/js/vegas.css">
 </head>
 
 <body>
-<!--
-	<div id="header"></div>
-	<div id="gnav"></div>
--->
-    <header class="top">
-        <div class="hc">
-            <h1 class="title"><a href="./index.html"><img src="../com/img/logo01.png" alt="logo" class="logo"></a></h1>
-            <div class="sm-only" id="nav_toggle">
-                <div>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
+<header class="top" id="header">
+    <div class="hc">
+        <h1 class="title"><a href="./index.html"><img src="../com/img/logo01.png" alt="logo" class="logo"></a></h1>
+        <div class="sm-only" id="nav_toggle">
+            <div> <span></span> <span></span> <span></span> </div>
+        </div>
+        <nav class="gnav">
+            <ul class="nc">
+                <li> <a href="#profile">
+                    <p>Profile</p>
+                    </a> </li>
+                <li> <a href="#language">
+                    <p>Language</p>
+                    </a> </li>
+                <li> <a href="#development">
+                    <p>Development</p>
+                    </a> </li>
+                <li> <a href="#history">
+                    <p>History</p>
+                    </a> </li>
+                <li> <a href="#favorite">
+                    <p>Favorite</p>
+                    </a> </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div>
+    <!--        Todo: 薄く白を消す はっきりした色 画像の追加  -->
+    <div class="hero-img">
+        <div  class="hero-mask">
+            <h2 class="hero-title">Welcom to Fukke's Portfolio</h2>
+        </div>
+    </div>
+</div>
+<main>
+    <div class="mc" id="main">
+<!--        <style>-->
+<!--            #pageTop a {-->
+<!--                position: fixed;-->
+<!--                bottom: 30px;-->
+<!--                right: 30px;-->
+<!--                padding: 2em;-->
+<!--                border: 1px solid #4d4d4d;-->
+<!--                border-radius: 50%;-->
+<!--            }-->
+<!--        </style>-->
+<!--        <p id="pageTop"><a href="#header">TOP</a></p>-->
+        <!-- Todo: newsを追加する -->
+<!--        <h3 class="article-title">News</h3>-->
+<!--        <ul class="news">-->
+<!--            <li class="">-->
+<!--                <div>-->
+<!--                    <time>2019/04/30</time>-->
+<!--                    <p>デザインを大幅に変更しました。</p>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--            <li class="">-->
+<!--                <div>-->
+<!--                    <time>2019/03/21</time>-->
+<!--                    <p>デザインを大幅に変更しました。</p>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--            <li class="">-->
+<!--                <div>-->
+<!--                    <time>2018/12/23</time>-->
+<!--                    <p>ポートフォリオを公開しました。</p>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--        </ul>-->
 
-            <nav class="gnav">
-                <ul class="nc">
-                    <li>
-                        <a href="./profile.html">
-                            <p>Profile</p>
-<!--                            <p class="section-title-sub">プロフィール</p>-->
-                        </a>
+        <article class="mt-10" id="profile">
+            <p class="article-title">Profile</p>
+            <h2 class="article-title-sub">プロフィール</h2>
+            <section class="profile flexbox alignItems justifyContentCenter mt-3">
+                <div style="padding: 2em; margin-right: 3em;">
+                    <img src="../com/img/顔.jpg" alt="顔" style="width: 300px; height: 300px; border-radius: 50%;">
+                </div>
+                <div>
+                    <p class="section-title">Fuke Kazuki (フケ カズキ)</p>
+                    <p class="section-title">北九州工業高等専門学校(NitKit)</p>
+                    <p class="section-title">情報システムコース3年</p>
+                    <p class="section-title">コンピュータ研究部所属</p>
+                    <p class="section-title">基本情報技術者</p>
+                </div>
+            </section>
+        </article>
+
+        <article class="mt-10" id="development">
+            <p class="article-title">Development</p>
+            <h2 class="article-title-sub">開発</h2>
+            <!--        Todo: ハッカソンのやつを追加　レイアウトの変更 詳細を追加 画像の追加 -->
+            <section data-scroll="toggle(.fromRightIn, .fromRightOut) centerHorizontal" class="mt-5 section">
+                <a href="https://fukekazki.github.io/TapiokaTaskApp/" class="alignItems flexbox">
+                    <div class="image p-5">
+                        <img src="../com/img/Todoアプリ.png" alt="Todoアプリ">
+                    </div>
+                    <div class="text p-5">
+                        <h3 style="font-weight: bold; font-size: 2em;">タスク管理アプリ</h3>
+                        <p>ハックツハッカソン-アロ杯-でタスク管理アプリを作成しました. <br>
+                        </p>
+                        <p>開発期間: 6/22 ~ 23</p>
+                        <p>開発環境: Vue/Vuex/Vue Router</p>
+                    </div>
+                </a>
+            </section>
+            <section data-scroll="toggle(.fromRightIn, .fromRightOut) centerHorizontal" class="section">
+                <a href="https://fukekazki.github.io/jigInternTask-FukeKazuki-/" class="alignItems flexbox">
+                    <div class="text p-5">
+                        <h3 style="font-weight: bold; font-size: 2em;">福井のイベント情報サイト</h3>
+                        <p>jigインターンの課題で福井のイベント情報サイトを作成しました.</p>
+                        <p>開発環境: 素JavaScript/jQuery</p>
+                    </div>
+                    <div class="image p-5">
+                        <img src="../com/img/jigイ課題.png" alt="jigイ課題">
+                    </div>
+                </a>
+            </section>
+            <section data-scroll="toggle(.fromRightIn, .fromRightOut) centerHorizontal" class="mt-5 section">
+                <a href="https://kazkifukke.hatenablog.com/entry/2019/11/03/%E9%AB%98%E5%B0%82%E7%A5%AD%E3%82%AF%E3%83%A9%E3%82%B9%E5%B1%95%E7%A4%BA%E3%81%A7%E3%80%8C%E3%81%99%E3%83%BC%E3%81%B1%E3%83%BC%E3%82%89%E3%82%93%E3%81%8D%E3%82%93%E3%81%90%E3%81%97%E3%81%99%E3%81%A6s" class="alignItems flexbox">
+                    <div class="image p-5">
+                        <img style="height: 400px;" src="../com/img/ranking_system.jpg" alt="すーぱーらんきんぐしすてむ">
+                    </div>
+                    <div class="text p-5">
+                        <h3 style="font-weight: bold; font-size: 2em;">すーぱーらんきんぐしすてむ</h3>
+                        </p>
+                        <p>高専祭クラス展示で使用しました. 入退場時スマホからQRコードを読み取りその差分でプレイ時間のランキングを作成します.<br>
+                        <p>開発期間: 6/22 ~ 23</p>
+                        <p>開発環境: Vue/Express/Heroku/PostgresSQL</p>
+                    </div>
+                </a>
+            </section>
+            <section data-scroll="toggle(.fromRightIn, .fromRightOut) centerHorizontal" class="section">
+                <a href="https://github.com/jigintern/Season-Foods-Navi/tree/develop" class="alignItems flexbox">
+                    <div class="text p-5">
+                        <h3 style="font-weight: bold; font-size: 2em;">旬食ナビ</h3>
+                        <p>jig.jpインターンで開発しました.位置情報から旬の食材, それを使った料理, 食材の値段や栄養を教えてくれるアプリです.</p>
+                        <p>開発環境: Swift/PHP/Express/MariaDB/Docker</p>
+                    </div>
+                    <div class="image p-5">
+                        <img style="height: 400px;" src="../com/img/sfnav.PNG" alt="旬食Navi">
+                    </div>
+                </a>
+            </section>
+            <section data-scroll="toggle(.fromRightIn, .fromRightOut) centerHorizontal" class="mt-5 section">
+                <a href="https://github.com/FukeKazki/LINE_QIITA_BOT" class="alignItems flexbox">
+                    <div class="image p-5">
+                        <img style="height: 400px;" src="../com/img/linebot.jpg" alt="LineBot">
+                    </div>
+                    <div class="text p-5">
+                        <h3 style="font-weight: bold; font-size: 2em;">LineBot & QiitaAPI</h3>
+                        <p>LineAPIとQiitaAPIを組合せてQiita記事を検索してくれるBOTを作成しました.<br>
+                        </p>
+<!--                        <p>開発期間: 6/22 ~ 23</p>-->
+                        <p>開発環境: Express/Heroku</p>
+                    </div>
+                </a>
+            </section>
+<!--
+            <section data-scroll="toggle(.fromRightIn, .fromRightOut) centerHorizontal" class="section">
+                <a href="https://kct-conken.github.io/blog/home.html" class="alignItems flexbox">
+                    <div class="image p-5">
+                        <img src="../com/img/コン研blog.png" alt="コン研マテリアルデザイン">
+                    </div>
+                    <div class="p-5 text">
+                        <p>コンピュータ研究部のブログサイトをCMS.jsで作成しました。</p>
+                        <p>開発環境: jQuery/vegas/ScrollTrigger</p>
+                    </div>
+                </a>
+            </section>
+            <section data-scroll="toggle(.fromRightIn, .fromRightOut) centerHorizontal" class="section">
+                <a href="" class="alignItems flexbox">
+                    <div class="p-5 text">
+                        <p>マテリアルデザインのフレームワークを使ったサイトを作成しました。始めて作ったサイトです。</p>
+                        <p>開発環境: materialize.css/jQuery/Slick</p>
+                    </div>
+                    <div class="image p-5">
+                        <img src="../com/img/コン研マテリアルデザイン.png" alt="コン研マテリアルデザイン">
+                    </div>
+                </a>
+            </section>
+
+            <section data-scroll="toggle(.fromRightIn, .fromRightOut) centerHorizontal" class="section">
+                <a href="#" class="alignItems flexbox">
+                    <div class="image p-5"> <img src="../com/img/コン研wordpress.png" alt="コン研マテリアルデザイン"> </div>
+                    <div class="p-5 text">
+                        <p>コンピュータ研究部のブログサイトをWordpressで作成しました。</p>
+                        <p>開発環境: PHP/WordPress/MySQL/jQuery/Slick</p>
+                    </div>
+                </a>
+            </section>
+            <section data-scroll="toggle(.fromRightIn, .fromRightOut) centerHorizontal" class="section">
+                <a href="https://github.com/FukeKazki/Hentai" class="alignItems flexbox">
+                    <div class="image p-5">
+                        <img src="../com/img/hentaiHackthon04.png" alt="コン研マテリアルデザイン">
+                    </div>
+                    <div class="p-5 text">
+                        <p>天神で行われた変態ハッカソンで作成しました。</p>
+                        <p>開発環境: React/material-ui/react-router/react-transition-group</p>
+                    </div>
+                </a>
+            </section>
+-->
+        </article>
+        <article class="mt-10" id="history">
+            <p class="article-title">History</p>
+            <h2 class="article-title-sub">履歴</h2>
+            <div class="mt-5">
+                <ul class="timeline clearfix">
+                    <li class="clearfix">
+                        <p class="timeline-date">2019/12/26</p>
+                        <div class="timeline-content">
+                            <h3>Twillio ハンズオンセミナー</h3>
+                        </div>
                     </li>
-                    <li>
-                        <a href="./language.html">
-                            <p>Language</p>
-<!--                            <p class="section-title-sub">言語</p>-->
-                        </a>
+                    <li class="clearfix">
+                        <p class="timeline-date">2019/12/26</p>
+                        <div class="timeline-content">
+                            <h3>LAC-OneDayインターンシップ</h3>
+                        </div>
                     </li>
-                    <li>
-                        <a href="./development.html">
-                            <p>Development</p>
-<!--                            <p class="section-title-sub">開発</p>-->
-                        </a>
+                    <li class="clearfix">
+                        <p class="timeline-date">2019/12/21</p>
+                        <div class="timeline-content">
+                            <h3>九州アプリチャレンジキャラバン2019</h3>
+                        </div>
                     </li>
-                    <li>
-                        <a href="./life.html">
-                            <p>Event &amp; History</p>
-<!--                            <p class="section-title-sub">イベント &amp; 履歴</p>-->
-                        </a>
+                    <li class="clearfix">
+                        <p class="timeline-date">2019/12/14</p>
+                        <div class="timeline-content">
+                            <h3>CA Tech Pitch Battle</h3>
+                        </div>
                     </li>
-                    <li>
-                        <a href="./favorite.html">
-                            <p>Favorite</p>
-<!--                            <p class="section-title-sub">趣味</p>-->
-                        </a>
+                    <li class="clearfix">
+                        <p class="timeline-date">2019/08/19 ~ 09/06</p>
+                        <div class="timeline-content">
+                            <h3>jig.jpインターン2019</h3>
+                        </div>
                     </li>
-                    <li>
-                        <a href="./links.html">
-                            <p>Link</p>
-<!--                            <p class="section-title-sub">リンク</p>-->
-                        </a>
+                    <li class="clearfix">
+                        <p class="timeline-date">2019/06/22 ~ 23</p>
+                        <div class="timeline-content">
+                            <h3>ハックツハッカソン-アロ杯- 副賞(服賞)</h3>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <p class="timeline-date">2019/04/21</p>
+                        <div class="timeline-content">
+                            <h3>ハックツハッカソン 優秀賞</h3>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <p class="timeline-date">2019/03/17</p>
+                        <div class="timeline-content">
+                            <h3>平尾台クロスカントリー 6位</h3>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <p class="timeline-date">2019/03/16</p>
+                        <div class="timeline-content">
+                            <h3>高専カンファレンスin西京2に参加</h3>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <p class="timeline-date">2019/02/28</p>
+                        <div class="timeline-content">
+                            <h3>IoTセキュリティで北九州市を元気にする会に参加</h3>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <p class="timeline-date">2018/12/19</p>
+                        <div class="timeline-content">
+                            <h3>BEENOSハンズオンワークショップに参加</h3>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <p class="timeline-date">2018/10/26</p>
+                        <div class="timeline-content">
+                            <h3>北九州でIoTに参加</h3>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <p class="timeline-date">2018/09</p>
+                        <div class="timeline-content">
+                            <h3>コンピュータ研究部入部</h3>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <p class="timeline-date">2017/04</p>
+                        <div class="timeline-content">
+                            <h3>北九州高専入学</h3>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <p class="timeline-date">中1 ~ 高専2年</p>
+                        <div class="timeline-content">
+                            <h3>陸上部長距離</h3>
+                            <p>3000m: 09'25</p>
+                            <p>1500m: 04'15</p>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <p class="timeline-date">小4~中1</p>
+                        <div class="timeline-content">
+                            <h3>ブラスバンド部</h3>
+                            <p>ユーフォニアムを担当</p>
+                        </div>
                     </li>
                 </ul>
-            </nav>
-            
+            </div>
+        </article>
+        <article class="mt-10" id="language">
+            <p class="article-title mt-5">Language</p>
+            <h2 class="article-title-sub">言語</h2>
+            <!--        Todo: レイアウトの変更-->
+            <article class="flexbox mt-3" style="flex-wrap: wrap;">
+                <style>
+                    .card {
+                        width: 333px;
+                    }
+                </style>
+                <div class="card mb-5">
+                    <div class="card-header">
+                        <h3 class="section-title">HTML</h3>
+                    </div>
+                    <div class="card-body">
+                        <p> ポートフォリオの作成やReactなどでよく使います。
+                            ホームページ作成のバイトをできるレベルで書けます。 </p>
+                    </div>
+                    <div class="card-footer">
+                        <p>★★★</p>
+                    </div>
+                </div>
+                <div class="card mb-5">
+                    <div class="card-header">
+                        <h3 class="section-title">CSS</h3>
+                    </div>
+                    <div class="card-body">
+                        <p> ポートフォリオの作成やReactなどでよく使います。
+                            ホームページ作成のバイトをできるレベルで書けます。 </p>
+                    </div>
+                    <div class="card-footer">
+                        <p>★★★</p>
+                    </div>
+                </div>
+                <div class="card mb-5">
+                    <div class="card-header">
+                        <h3 class="section-title">JavaScript</h3>
+                    </div>
+                    <div class="card-body">
+                        <p> 完全に理解した。 jQueryやReact等でよく使います。 </p>
+                    </div>
+                    <div class="card-footer">
+                        <p>★★★</p>
+                    </div>
+                </div>
+                <div class="card mb-5">
+                    <div class="card-header">
+                        <h3 class="section-title">PHP</h3>
+                    </div>
+                    <div class="card-body">
+                        <p> MySQLと接続して投稿機能などを作りました。
+                            WordPressを使ってサイトを作成しました。 </p>
+                    </div>
+                    <div class="card-footer">
+                        <p>★☆☆</p>
+                    </div>
+                </div>
+                <div class="card mb-5">
+                    <div class="card-header">
+                        <h3 class="section-title">C</h3>
+                    </div>
+                    <div class="card-body">
+                        <p> 始めて触ったプログラミング言語です。
+                            授業である程度使えるようになりました。
+                            競技プログラミングで使います。 </p>
+                    </div>
+                    <div class="card-footer">
+                        <p>★★☆</p>
+                    </div>
+                </div>
+                <div class="card mb-5">
+                    <div class="card-header">
+                        <h3 class="section-title">C++</h3>
+                    </div>
+                    <div class="card-body">
+                        <p> 競技プログラミングで使います。 </p>
+                    </div>
+                    <div class="card-footer">
+                        <p>★☆☆</p>
+                    </div>
+                </div>
+                <div class="card mb-5">
+                    <div class="card-header">
+                        <h3 class="section-title">Python</h3>
+                    </div>
+                    <div class="card-body">
+                        <p> CTFで使う。
+                            LINEBOTの作成で使用しました。
+                            DeepLearningの勉強で使います。 </p>
+                    </div>
+                    <div class="card-footer">
+                        <p>★☆☆</p>
+                    </div>
+                </div>
+            </article>
+            <p class="article-title mt-5">Framework</p>
+            <h2 class="article-title-sub">フレームワーク</h2>
+            <article class="flexbox mt-3" style="flex-wrap: wrap;">
+                <div class="card mb-5" style="">
+                    <div class="card-header">
+                        <h3 class="section-title">Vue.js</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>ハッカソンで使用しました. Vuex Vue Routerも使用しました.</p>
+                    </div>
+                    <div class="card-footer">
+                        <p>★★★</p>
+                    </div>
+                </div>
+                <div class="card mb-5">
+                    <div class="card-header">
+                        <h3 class="section-title">React</h3>
+                    </div>
+                    <div class="card-body">
+                        <p> ハッカソンや部内のプロジェクトで使います。
+                            勉強中...。 </p>
+                    </div>
+                    <div class="card-footer">
+                        <p>★★☆</p>
+                    </div>
+                </div>
+                <div class="card mb-5">
+                    <div class="card-header">
+                        <h3 class="section-title">ReactNative</h3>
+                    </div>
+                    <div class="card-body">
+                        <p> モバイルアプリの開発で使います。
+                            勉強中...。 </p>
+                    </div>
+                    <div class="card-footer">
+                        <p>★★☆</p>
+                    </div>
+                </div>
+                <div class="card mb-5">
+                    <div class="card-header">
+                        <h3 class="section-title">Sass</h3>
+                    </div>
+                    <div class="card-body">
+                        <p> SMACSSと組み合わせて使います。 </p>
+                    </div>
+                    <div class="card-footer">
+                        <p>★★☆</p>
+                    </div>
+                </div>
+                <div class="card mb-5">
+                    <div class="card-header">
+                        <h3 class="section-title">jQuery</h3>
+                    </div>
+                    <div class="card-body">
+                        <p> 簡単なアニメーションの作成で使います。 </p>
+                    </div>
+                    <div class="card-footer">
+                        <p>★★☆</p>
+                    </div>
+                </div>
+                <div class="card mb-5">
+                    <div class="card-header">
+                        <h3 class="section-title">WordPress</h3>
+                    </div>
+                    <div class="card-body">
+                        <p> ホームページ作成のバイトで使用しました。 </p>
+                    </div>
+                    <div class="card-footer">
+                        <p>★★★</p>
+                    </div>
+                </div>
+                <div class="card mb-5">
+                    <div class="card-header">
+                        <h3 class="section-title">Node.js</h3>
+                    </div>
+                    <div class="card-body">
+                        <p> バックエンドも書けるように勉強中。
+                            mongoDB Expressと組み合わせて使います。 </p>
+                    </div>
+                    <div class="card-footer">
+                        <p>★☆☆</p>
+                    </div>
+                </div>
+            </article>
+            <p class="article-title mt-5">Other</p>
+            <h2 class="article-title-sub">その他</h2>
+            <article class="flexbox mt-3" style="flex-wrap: wrap;">
+                <div class="card mb-5">
+                    <div class="card-header">
+                        <h3 class="section-title">Git/Github</h3>
+                    </div>
+                    <div class="card-body">
+                        <p> ハッカソンでのチーム開発や個人でコードの管理に使います。
+                            ある程度のコマンドを使用できます。 </p>
+                    </div>
+                    <div class="card-footer">
+                        <p>★★☆</p>
+                    </div>
+                </div>
+                <div class="card mb-5">
+                    <div class="card-header">
+                        <h3 class="section-title">Linux</h3>
+                    </div>
+                    <div class="card-body">
+                        <p> 環境構築などである程度のコマンドを使用します。 </p>
+                    </div>
+                    <div class="card-footer">
+                        <p>★★☆</p>
+                    </div>
+                </div>
+                <div class="card mb-5">
+                    <div class="card-header">
+                        <h3 class="section-title">MySQL</h3>
+                    </div>
+                    <div class="card-body">
+                        <p> PHPやWordPressで使用しました。 </p>
+                    </div>
+                    <div class="card-footer">
+                        <p>★☆☆</p>
+                    </div>
+                </div>
+            </article>
+        </article>
+        <p class="article-title mt-10" id="favorite">Favorite</p>
+        <h2 class="article-title-sub">趣味</h2>
+        <!--    趣味を別ページにする-->
+        <!--
+        <section class="mt-5 reads">
+            <p class="section-title">Reads</p>
+            <p class="section-title-sub">読んだ技術書</p>
+            <div class="books flexbox alignItems flexWrap mt-2">
+                <div class="book"> <a href="https://www.amazon.co.jp/C言語によるプログラミング-基礎編-内田-智史/dp/4274064409/ref=sr_1_1?__mk_ja_JP=カタカナ&keywords=c言語によるプログラミング&qid=1558182038&s=gateway&sr=8-1" target="_blank">
+                    <p><img src="../com/img/books/C言語によるプログラミング.jpg" alt="C言語によるプログラミング"></p>
+                    <h3>C言語によるプログラミング</h3>
+                    </a> </div>
+                <div class="book"> <a href="https://www.amazon.co.jp/HTML5-CSS3標準デザイン講座-草野-あけみ/dp/4798142204/ref=sr_1_fkmrnull_2?__mk_ja_JP=カタカナ&keywords=HTML5＆CSS3標準デザイン講座&qid=1558182419&s=gateway&sr=8-2-fkmrnull" target="_blank">
+                    <p><img src="../com/img/books/HTML5＆CSS3標準デザイン講座.jpg" alt="CHTML5＆CSS3標準デザイン講座"></p>
+                    <h3>HTML5＆CSS3標準デザイン講座</h3>
+                    </a> </div>
+                <div class="book"> <a href="https://www.amazon.co.jp/改訂新版JavaScript本格入門-モダンスタイルによる基礎から現場での応用まで-山田-祥寛/dp/477418411X/ref=sr_1_1?__mk_ja_JP=カタカナ&keywords=JavaScript本格入門&qid=1558182815&s=gateway&sr=8-1" target="_blank">
+                    <p><img src="../com/img/books/JavaScript本格入門.jpg" alt="JavaScript本格入門"></p>
+                    <h3>JavaScript本格入門</h3>
+                    </a> </div>
+                <div class="book"> <a href="https://www.amazon.co.jp/図解-スティーブ・ジョブズのプレゼン術-松本-幸夫-ebook/dp/B00GD6T45M/ref=sr_1_2?__mk_ja_JP=カタカナ&keywords=スティーブ・ジョブズのプレゼン術&qid=1558182904&s=gateway&sr=8-2" target="_blank">
+                    <p><img src="../com/img/books/スティーブ・ジョブズのプレゼン術.jpg" alt="スティーブ・ジョブズのプレゼン術"></p>
+                    <h3>スティーブ・ジョブズのプレゼン術</h3>
+                    </a> </div>
+                <div class="book"> <a href="https://www.amazon.co.jp/一冊でキッチリ身につく-サーバーの基本としくみ-リンクアップ/dp/4816362924/ref=sr_1_fkmrnull_1?__mk_ja_JP=カタカナ&keywords=サーバーの基本としくみ&qid=1558183003&s=gateway&sr=8-1-fkmrnull" target="_blank">
+                    <p><img src="../com/img/books/サーバーの基本としくみ.jpg" alt="サーバーの基本としくみ"></p>
+                    <h3>サーバーの基本としくみ</h3>
+                    </a> </div>
+                <div class="book"> <a href="https://www.amazon.co.jp/JavaScript-コードレシピ集-池田-泰延/dp/4297103680/ref=sr_1_fkmrnull_1?__mk_ja_JP=カタカナ&keywords=JavaScriptコードレシピ集&qid=1558183266&s=gateway&sr=8-1-fkmrnull" target="_blank">
+                    <p><img src="../com/img/books/JavaScriptコードレシピ集.jpg" alt="JavaScriptコードレシピ集"></p>
+                    <h3>JavaScriptコードレシピ集</h3>
+                    </a> </div>
+            </div>
+        </section>
+-->
+        <div class="flexbox flexWrap">
+            <div class="card">
+                <p class="section-title">Likes</p>
+                <p>ねこ</p>
+                <p>乃木坂</p>
+                <p>=LOVE</p>
+                <p>長距離走</p>
+            </div>
         </div>
-    </header>
-	
-	
-	<main>
-        <div>
-            <div class="hero-img">
-                <div  class="hero-mask">
-                    <h2 class="hero-title">Welcom to Fukke's Portfolio</h2>
+
+        <div style="display: none; ">
+            <p class="article-title mt-10">Link</p>
+            <h2 class="article-title-sub">リンク</h2>
+            <!--        リンクのレイアウトを変更かフッターに移す-->
+            <div class="link flexbox">
+                <div class="card">
+                    <!-- InstaWidget -->
+                    <a href="https://instawidget.net/v/user/fukke0906" id="link-56e0f44a9fa0cf27f95f9e0c880cb206c941043ef72cea56e0717a1f3e61a81f">@fukke0906</a>
+                    <script src="https://instawidget.net/js/instawidget.js?u=56e0f44a9fa0cf27f95f9e0c880cb206c941043ef72cea56e0717a1f3e61a81f&width=100%"></script>
+                </div>
+                <div class="card"> <a class="twitter-timeline" data-width="300" data-height="500" href="https://twitter.com/fukke0906?ref_src=twsrc%5Etfw">Tweets by fukke0906</a> <script async src="https://platform.twitter.com/widgets.js"></script>
+                </div>
+                <div class="card">
+                    <div class="button"> <a href="https://kazkifukke.hatenablog.com/" target="_blank">
+                        <p class="section-title">Blog</p>
+                        </a> </div>
+                    <div class="button"> <a href="https://github.com/FukeKazki" target="_blank">
+                        <p class="section-title">Github</p>
+                        </a> </div>
+                    <div class="button"> <a href="https://qiita.com/fukke0906" target="_blank">
+                        <p class="section-title">Qiita</p>
+                        </a> </div>
+                    <div class="button"> <a href="https://www.facebook.com/fukke0906" target="_blank">
+                        <p class="section-title">FaceBook</p>
+                        </a> </div>
+                    <div class="button"> <a href="https://atcoder.jp/users/kazki" target="_blank">
+                        <p class="section-title">AtCoder</p>
+                        </a> </div>
                 </div>
             </div>
         </div>
-        <div class="mc">
-			<!-- Todo: newsを追加する -->
-            <h3 class="article-title">News</h3>
-            <ul class="news">
-                <li class="">
-                    <div>
-                        <time>2019/04/30</time>
-                        <p>デザインを大幅に変更しました。</p>
-                    </div>
-                </li>
-                <li class="">
-                    <div>
-                        <time>2019/03/21</time>
-                        <p>デザインを大幅に変更しました。</p>
-                    </div>
-                </li>
-                <li class="">
-                    <div>
-                        <time>2018/12/23</time>
-                        <p>ポートフォリオを公開しました。</p>
-                    </div>
-                </li>
+
+    </div>
+</main>
+<footer class="mt-5">
+    <div class="fc01">
+        <div class="flexbox">
+            <style>
+                li a p {
+                    padding: 1em;
+                    font-size: 1.2em;
+                    color: #4d4d4d;
+                }
+                .link-button {
+                    padding: 1em;
+                    font-size: 1.2em;
+                    color: #4d4d4d;
+                }
+                .link-button:hover {
+                    transition: 1.5s;
+                    transform: scale(1.1);
+                }
+
+            </style>
+            <ul>
+                <li><a href="#news"><p>News</p></a></li>
+                <li><a href="#profile"><p>Profile</p></a></li>
+                <li><a href="#development"><p>Development</p></a></li>
+                <li><a href="#history"><p>History</p></a></li>
+                <li><a href="#language"><p>Language</p></a></li>
+                <li><a href="#favorite"><p>Favorite</p></a></li>
             </ul>
+            <div>
+                <div class=""> <a href="https://kazkifukke.hatenablog.com/" target="_blank">
+                    <p class="link-button">Blog</p>
+                    </a> </div>
+                <div class=""> <a href="https://github.com/FukeKazki" target="_blank">
+                    <p class="link-button">Github</p>
+                    </a> </div>
+                <div class=""> <a href="https://qiita.com/fukke0906" target="_blank">
+                    <p class="link-button">Qiita</p>
+                    </a> </div>
+                <div class=""> <a href="https://www.facebook.com/fukke0906" target="_blank">
+                    <p class="link-button">FaceBook</p>
+                    </a> </div>
+                <div class=""> <a href="https://atcoder.jp/users/kazki" target="_blank">
+                    <p class="link-button">AtCoder</p>
+                    </a> </div>
+            </div>
+            <div class=""> <a class="twitter-timeline" data-width="300" data-height="500" href="https://twitter.com/fukke0906?ref_src=twsrc%5Etfw">Tweets by fukke0906</a>
+                <script async src="https://platform.twitter.com/widgets.js"></script>
+            </div>
         </div>
-	</main>
-	
-	<div id="footer"></div>
-	
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="../com/js/vegas.min.js"></script>
-	<script src="./index.js"></script>
-    
+        <div class="fc01">
+            <p class="section-title">ふっけーのポートフォリオ</p>
+        </div>
+        <div class="fc02">
+            <p class="section-title-sub">Copyright © 2019 FukeKazuki All Rights Reserves.</p>
+        </div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="../com/js/vegas.min.js"></script>
+<script src="../com/js/ScrollTrigger.min.js"></script>
+<script src="./index.js"></script>
 </body>
 </html>

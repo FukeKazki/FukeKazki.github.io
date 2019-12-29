@@ -52,7 +52,6 @@ footer {
     }
 }
 
-.image {width: 30%;}
 .text {color: #4d4d4d;}
 .logo {
     width: 15%; 
@@ -73,4 +72,15 @@ footer {
     a {display: block;}
     p {width: 200px; text-align: center;}
     a h3 {color: #4d4d4d;}
+}
+
+.section {
+    height: 500px;
+    margin-top: 2em;
+}
+.section .image {
+    width: 50%;
+}
+.section .text {
+    width: 50%;
 }
