@@ -1,7 +1,6 @@
 // JavaScript Document
 $(function(){
 	'use strict';
-	$('#footer').load('../com/src/footer.html');
     //	ヘッダーの固定
     if($('.nc').length){
         const gm_nav = $('header');
@@ -28,9 +27,10 @@ $(function(){
        slides: [
            {src: '../com/img/hentaiHackthon02.jpg'},
            {src: '../com/img/hentaiHackthon01.jpg'},
-           {src: '../com/img/hentaiHackthon03.jpg'},
-           {src: '../com/img/DeepLarning01.jpg'},
-           {src: '../com/img/HTMLCSS01.jpg'},
+           {src: '../com/img/ハックツ01.jpg'},
+//           {src: '../com/img/hentaiHackthon03.jpg'},
+//           {src: '../com/img/DeepLarning01.jpg'},
+//           {src: '../com/img/HTMLCSS01.jpg'},
            {src: '../com/img/IoT01.jpg'},
        ],
         delay: 5000,

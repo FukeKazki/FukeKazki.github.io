@@ -1,6 +1,6 @@
 .timeline {
     @include min-screen($breakpoint-pc) {
-        margin-left: 10em;
+        margin-left: 15em;
     }
 }
 .timeline > li {

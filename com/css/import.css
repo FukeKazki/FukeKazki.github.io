@@ -217,6 +217,10 @@ h1 + *, h2 + *, h3 + *, h4 + * {
   }
 }
 
+.justifyContentCenter {
+  justify-content: center;
+}
+
 .flexWrap {
   flex-wrap: wrap;
 }
@@ -427,6 +431,10 @@ header.top {
   z-index: 100;
 }
 
+.hc {
+  position: fixed;
+  width: 100%;
+}
 @media screen and (min-width: 481px) {
   .hc {
     display: flex;
@@ -664,7 +672,7 @@ header.top {
 
 @media screen and (min-width: 481px) {
   .timeline {
-    margin-left: 10em;
+    margin-left: 15em;
   }
 }
 
@@ -776,10 +784,6 @@ footer {
   border: none;
 }
 
-.image {
-  width: 30%;
-}
-
 .text {
   color: #4d4d4d;
 }
@@ -813,6 +817,19 @@ footer {
 }
 .book a h3 {
   color: #4d4d4d;
+}
+
+.section {
+  height: 500px;
+  margin-top: 2em;
+}
+
+.section .image {
+  width: 50%;
+}
+
+.section .text {
+  width: 50%;
 }
 
 .title {
