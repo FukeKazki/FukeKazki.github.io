@@ -22,7 +22,7 @@ $(function(){
         pathname = array.slice(-1)[0];
         $('.gnav a[href="'+'./'+pathname+'"]').addClass('active');
     }
-		
+
     $('.hero-img').vegas({
        slides: [
            {src: '../com/img/hentaiHackthon02.jpg'},
@@ -38,6 +38,7 @@ $(function(){
         transition: 'blur',
         animation: 'random',
     });
+
 });
 document.addEventListener('DOMContentLoaded', function(){
   const trigger = new ScrollTrigger();
